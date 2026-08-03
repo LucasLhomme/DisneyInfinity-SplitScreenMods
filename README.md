@@ -35,14 +35,6 @@ Crabe.Splitscreen.report()                                -- full diagnostic
 See [docs/splitscreen.md](docs/splitscreen.md) ("Using it") for the full API
 and what each field of `report()` means.
 
-## Why this is a separate repo
-
-CrabeLoader is a generic platform: it exposes the tools (call any game
-function by address, read/write memory, trace messages, ...) so mods don't
-need loader changes. This mod is exactly that — a consumer of CrabeLoader's
-API, not part of it — so it lives on its own, the same way a plugin lives
-apart from the app it plugs into. See CrabeLoader's `docs/modding.md`.
-
 ## License
 
 GPLv3, matching CrabeLoader — see [LICENSE](LICENSE).
